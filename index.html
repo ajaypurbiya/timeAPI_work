@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Retrive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="time-zone-container">
+        <div class="current-time-zone-container">
+            <div class="data-container">
+                <h1>TimeZone API</h1>
+                <h1>Your Current Time Zone</h1>
+            </div>
+
+            <div class="current-time-data-container">
+                <!-- <p>Name Of Time Zone : UTC</p>
+                <div class="coordinates-container">
+                    <p>Lat:</p>
+                    <p>Long:</p>
+                </div>
+                <p>Offset STD:</p>
+                <p>Offset STD Seconds :</p>
+                <p>Offset DST :</p>
+                <p>Offset DST Seconds:</p>
+                <p>Country:</p>
+                <p>Postcode:</p>
+                <p>City:</p> -->
+            </div>
+        </div>
+        <div class="entered-time-zone-container">
+            <div class="data-container">
+                <h1>Enter Address</h1>
+                <input type="text" placeholder="Address" id="inbut-box">
+                <br>
+                <button type="submit" onclick="fetchLocationByAddress()">Submit</button>
+            </div>
+
+            <div id="fetc-data-container">
+                <p id="address-warning">Please enter an address!</p>
+                <!-- <h1>Your result</h1>
+                <div class="fetch-time-data-container">
+                    <p>Name Of Time Zone : UTC</p>
+                    <div class="coordinates-container">
+                        <p>Lat:</p>
+                        <p>Long:</p>
+                    </div>
+                    <p>Offset STD:</p>
+                    <p>Offset STD Seconds :</p>
+                    <p>Offset DST :</p>
+                    <p>Offset DST Seconds:</p>
+                    <p>Country:</p>
+                    <p>Postcode:</p>
+                    <p>City:</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

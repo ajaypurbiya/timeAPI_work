@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1E1E1E;
+}
+
+
+.time-zone-container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+}
+
+.data-container {
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.current-time-data-container {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.coordinates-container {
+    display: flex;
+    gap: 150px;
+}
+
+.data-container input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.data-container button {
+    width: 100px;
+}
+
+.entered-time-zone-container {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+#address-warning {
+    color: #E84444;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+#fetc-data-container {
+    margin: 20px;
+}
+
+.fetch-time-data-container {
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+}
